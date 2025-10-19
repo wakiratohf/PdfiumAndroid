@@ -19,8 +19,6 @@ android {
     defaultConfig {
         minSdkVersion 23
         targetSdkVersion 36
-        versionCode 3
-        versionName "2.0.2"
         buildConfigField "String", "VERSION_NAME", "\"${versionName}\""
     }
     buildTypes {
